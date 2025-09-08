@@ -1,0 +1,21 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#93C5FD;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 3D N shape -->
+  <path d="M20 25 L20 95 L35 95 L35 55 L65 85 L65 95 L80 95 L80 25 L65 25 L65 65 L35 35 L35 25 Z" fill="url(#grad1)" />
+  <path d="M25 30 L25 90 L30 90 L30 60 L60 80 L60 90 L75 90 L75 30 L70 30 L70 70 L40 40 L40 30 Z" fill="url(#grad2)" opacity="0.7" />
+  
+  <!-- Shadow effect -->
+  <ellipse cx="60" cy="110" rx="25" ry="5" fill="#1E40AF" opacity="0.2" />
+</svg>
