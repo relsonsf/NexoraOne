@@ -7,7 +7,10 @@ const Team = () => {
       name: 'Relson Ferreira',
       role: 'CEO & Founder',
       bio: 'Visionário em tecnologia com expertise em transformação digital e liderança estratégica.',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg'
+      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg',
+      linkedin: 'https://www.linkedin.com/in/relson-souza-ferreira-b7b25056',
+      github: 'https://github.com/relsonsf',
+      email: 'mailto:relson@nexoraone.com.br'
     },
     {
       name: 'Gustavo Rodrigues',
