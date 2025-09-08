@@ -7,7 +7,7 @@ const Team = () => {
       name: 'Relson Ferreira',
       role: 'CEO & Founder',
       bio: 'Visionário em tecnologia com expertise em transformação digital e liderança estratégica.',
-      image: `${import.meta.env.BASE_URL}Foto.jpg`,
+      image: `${import.meta.env.BASE_URL}Foto.png`,
       Linkedin: 'https://www.linkedin.com/in/relson-souza-ferreira-b7b25056',
       Github: 'https://github.com/relsonsf',
       Mail: 'relson@nexoraone.com.br'
