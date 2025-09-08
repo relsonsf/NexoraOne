@@ -52,7 +52,17 @@ const Team = () => {
                 
                 <div className="flex justify-center space-x-3">
                   <button className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors duration-200">
+                    {member.Linkedin && (
+                    <a>
+                      href={member.Linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`LinkedIn de ${member.name}`}
+                      className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700"
+                    
                     <Linkedin className="w-4 h-4" />
+                    </a>
+                    )}
                   </button>
                   <button className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-200">
                     <Github className="w-4 h-4" />
