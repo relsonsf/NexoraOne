@@ -30,7 +30,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center place-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center place-items-center">
           {teamMembers.map((member, index) => (
             <div key={index} className="group">
               <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
