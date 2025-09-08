@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/nexoraoneLogo.png" alt="Nexora One" className="w-10 h-10" />
+              <img src={`${import.meta.env.BASE_URL}nexoraoneLogo.png`} alt="Nexora One" className="w-10 h-10"/>
               <span className="text-2xl font-bold">Nexora One</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
