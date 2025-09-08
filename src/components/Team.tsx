@@ -51,15 +51,14 @@ const Team = () => {
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">{member.bio}</p>
                 
                 <div className="flex justify-center space-x-3">
-                  <button className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors duration-200">
-                    <button
-                        onClick={() => window.open(member.Linkedin, '_blank', 'noopener,noreferrer')}
-                        className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors duration-200"
-                        aria-label={`LinkedIn de ${member.name}`}
-                    ></button>
-
+                 <button
+                    onClick={() => window.open(member.Linkedin, '_blank', 'noopener,noreferrer')}
+                    className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors duration-200"
+                    aria-label={`LinkedIn de ${member.name}`}
+                  >
                     <Linkedin className="w-4 h-4" />
                   </button>
+
                   <button className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-200">
                     <Github className="w-4 h-4" />
                   </button>
