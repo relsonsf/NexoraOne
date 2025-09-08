@@ -59,7 +59,11 @@ const Team = () => {
                     <Linkedin className="w-4 h-4" />
                   </button>
 
-                  <button className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-200">
+                  <button 
+                    onClick={() => window.open(member.Github, '_blank', 'noopener,noreferrer')}
+                    className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                    aria-label={`GitHub de ${member.name}`}
+                  >
                     <Github className="w-4 h-4" />
                   </button>
                   <button className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-500 hover:text-white transition-colors duration-200">
