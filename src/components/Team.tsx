@@ -16,7 +16,7 @@ const Team = () => {
       name: 'Gustavo Rodrigues',
       role: 'CTO & Founder',
       bio: 'Co-fundador e líder técnico especializado em arquitetura de software e inovação tecnológica.',
-      image: `${import.meta.env.BASE_URL}FotoGu.jpg`,
+      image: `${import.meta.env.BASE_URL}FotoGu.png`,
       Mail: 'gustavo@nexoraone.com.br'
     }
   ];
